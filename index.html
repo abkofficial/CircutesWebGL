@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Circuits – Unity WebGL Demos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+            margin: 0;
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        a.card {
+            display: block;
+            padding: 20px;
+            background: #111827;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #e5e7eb;
+            text-align: center;
+            transition: transform 0.2s ease, background 0.2s ease;
+            border: 1px solid #1f2933;
+        }
+
+        a.card:hover {
+            background: #1f2937;
+            transform: translateY(-4px);
+        }
+
+        .code {
+            font-size: 14px;
+            opacity: 0.8;
+            margin-top: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>⚡ Circuits – Unity WebGL Experiments</h1>
+
+    <div class="grid">
+        <a class="card" href="01_floei/">
+            FLOEI
+            <div class="code">01_floei</div>
+        </a>
+
+        <a class="card" href="02_acg/">
+            AC Generator
+            <div class="code">02_acg</div>
+        </a>
+
+        <a class="card" href="03_swg/">
+            SWG
+            <div class="code">03_swg</div>
+        </a>
+
+        <a class="card" href="04_wg/">
+            WG
+            <div class="code">04_wg</div>
+        </a>
+
+        <a class="card" href="05_circuite/">
+            Circuit
+            <div class="code">05_circuite</div>
+        </a>
+
+        <a class="card" href="06_ac3pg/">
+            3-Phase AC Generator
+            <div class="code">06_ac3pg</div>
+        </a>
+
+        <a class="card" href="07_ac3load/">
+            3-Phase Load
+            <div class="code">07_ac3load</div>
+        </a>
+
+        <a class="card" href="08_pndiode/">
+            PN Diode
+            <div class="code">08_pndiode</div>
+        </a>
+    </div>
+</body>
+</html>
